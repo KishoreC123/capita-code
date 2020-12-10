@@ -15,7 +15,7 @@ def calculateMinMaxSum(x1, x2):
     maxSum = replaceDig(x1, 5, 6) +replaceDig(x2, 5, 6)
     print("Minimum sum =" , minSum)
     print("Maximum sum =" , maxSum,end=" ")
-if _name=='main_':
+if __name=='main__':
     x1 = 45
     x2 = 64
     calculateMinMaxSum(x1, x2)
